@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wanderlust</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">Wanderlust</div>
+      <input type="checkbox" id="hamburger-toggle" class="hamburger-toggle" />
+      <label for="hamburger-toggle" class="hamburger-label">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hamburger-icon">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </label>
+      <nav class="nav-links" id="nav-links">
+        <a href="#destinations">Destinations</a>
+        <a href="#packages">Packages</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#blog">Blog</a>
+        <a href="#footer">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <h1>Explore the World with<br>Wanderlust</h1>
+        <p>
+          Your adventure starts here. Discover breathtaking destinations,
+          curated tours, and unforgettable experiences.
+        </p>
+        <a href="#" class="primary-btn">Start Your Journey</a>
+      </div>
+    </section>
+    <section class="destinations" id="destinations">
+      <div class="container">
+        <h2 class="section-title">Popular Destinations</h2>
+        <div class="destinations-grid">
+          
+          <article class="destination-card">
+            <img src="https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg" alt="Maldives beach" />
+            <div class="card-body">
+              <h3>Maldives</h3>
+              <p>Crystal clear waters and white sandy beaches.</p>
+            </div>
+          </article>
+
+          <article class="destination-card">
+            <img src="https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg" alt="Paris city" />
+            <div class="card-body">
+              <h3>Paris</h3>
+              <p>The city of lights and romance awaits you.</p>
+            </div>
+          </article>
+
+          <article class="destination-card">
+            <img src="https://images.pexels.com/photos/240526/pexels-photo-240526.jpeg" alt="Bali landscape" />
+            <div class="card-body">
+              <h3>Bali</h3>
+              <p>Experience the magic of tropical paradise.</p>
+            </div>
+          </article>
+
+          <article class="destination-card">
+            <img src="https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg" alt="New York skyline" />
+            <div class="card-body">
+              <h3>New York</h3>
+              <p>The city that never sleeps, full of wonders.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages" id="packages">
+      <div class="container">
+        <h2 class="section-title">Popular Tour Packages</h2>
+
+        <div class="packages-grid">
+          <article class="package-card">
+            <div class="package-image">
+              <img src="https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg" alt="Manhattan tour" />
+              <span class="badge badge-green">New</span>
+              <button class="favorite-btn">❤</button>
+            </div>
+
+            <div class="package-body">
+              <h3>Two Hour Walking Tour Of Manhattan</h3>
+
+              <div class="package-meta">
+                <span class="meta-item">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2C8.7 2 6 4.7 6 8c0 4.2 4.7 8.9 5.7 9.9.2.2.5.3.8.3s.6-.1.8-.3C13.3 16.9 18 12.2 18 8c0-3.3-2.7-6-6-6zm0 8.5A2.5 2.5 0 1 1 12 5a2.5 2.5 0 0 1 0 5.5z" />
+                  </svg>
+                  Veins City, Italy
+                </span>
+                <span class="meta-item">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm1 10.3V7a1 1 0 1 0-2 0v6a1 1 0 0 0 .5.9l4 2.3a1 1 0 0 0 1-1.7l-3.5-2z" />
+                  </svg>
+                  7 Days
+                </span>
+              </div>
+
+              <div class="package-footer">
+                <div class="price-block">
+                  <span class="price-main">$320</span>
+                  <span class="price-sub">/Person</span>
+                </div>
+                <div class="rating">
+                  <svg class="icon icon-star" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" />
+                  </svg>
+                  <span>5 Reviews</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="package-card">
+            <div class="package-image">
+              <img src="https://images.pexels.com/photos/259863/pexels-photo-259863.jpeg" alt="Dubai tour" />
+              <span class="badge badge-green">% Offer</span>
+              <button class="favorite-btn">❤</button>
+            </div>
+
+            <div class="package-body">
+              <h3>When You Visit The Eternal Dubai City</h3>
+
+              <div class="package-meta">
+                <span class="meta-item">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2C8.7 2 6 4.7 6 8c0 4.2 4.7 8.9 5.7 9.9.2.2.5.3.8.3s.6-.1.8-.3C13.3 16.9 18 12.2 18 8c0-3.3-2.7-6-6-6zm0 8.5A2.5 2.5 0 1 1 12 5a2.5 2.5 0 0 1 0 5.5z" />
+                  </svg>
+                  Dubai, Emirates
+                </span>
+                <span class="meta-item">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm1 10.3V7a1 1 0 1 0-2 0v6a1 1 0 0 0 .5.9l4 2.3a1 1 0 0 0 1-1.7l-3.5-2z" />
+                  </svg>
+                  2 Days
+                </span>
+              </div>
+
+              <div class="package-footer">
+                <div class="price-block">
+                  
+                  <span class="price-main">$149</span>
+                  <span class="price-sub">/Person</span>
+                </div>
+                <div class="rating">
+                  <svg class="icon icon-star" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" />
+                  </svg>
+                  <span>5 Reviews</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="package-card">
+            <div class="package-image">
+              <img src="https://images.pexels.com/photos/240526/pexels-photo-240526.jpeg" alt="Pulau Seribu tour" />
+              <span class="badge badge-green">New</span>
+              <button class="favorite-btn">❤</button>
+            </div>
+
+            <div class="package-body">
+              <h3>The Pulau Seribu, Jakarta Indonesia</h3>
+
+              <div class="package-meta">
+                <span class="meta-item">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2C8.7 2 6 4.7 6 8c0 4.2 4.7 8.9 5.7 9.9.2.2.5.3.8.3s.6-.1.8-.3C13.3 16.9 18 12.2 18 8c0-3.3-2.7-6-6-6zm0 8.5A2.5 2.5 0 1 1 12 5a2.5 2.5 0 0 1 0 5.5z" />
+                  </svg>
+                  51 Dekor Land, Thailand
+                </span>
+                <span class="meta-item">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm1 10.3V7a1 1 0 1 0-2 0v6a1 1 0 0 0 .5.9l4 2.3a1 1 0 0 0 1-1.7l-3.5-2z" />
+                  </svg>
+                  5 Days
+                </span>
+              </div>
+
+              <div class="package-footer">
+                <div class="price-block">
+                  <span class="price-main">$349</span>
+                  <span class="price-sub">/Person</span>
+                </div>
+                <div class="rating">
+                  <svg class="icon icon-star" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" />
+                  </svg>
+                  <span>5 Reviews</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="package-card">
+            <div class="package-image">
+              <img src="https://images.pexels.com/photos/2193300/pexels-photo-2193300.jpeg" alt="American parks tour" />
+              <span class="badge badge-orange">Featured</span>
+              <button class="favorite-btn">❤</button>
+            </div>
+
+            <div class="package-body">
+              <h3>American Parks Trail End Rapid City Express</h3>
+
+              <div class="package-meta">
+                <span class="meta-item">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2C8.7 2 6 4.7 6 8c0 4.2 4.7 8.9 5.7 9.9.2.2.5.3.8.3s.6-.1.8-.3C13.3 16.9 18 12.2 18 8c0-3.3-2.7-6-6-6zm0 8.5A2.5 2.5 0 1 1 12 5a2.5 2.5 0 0 1 0 5.5z" />
+                  </svg>
+                  New York, USA
+                </span>
+                <span class="meta-item">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm1 10.3V7a1 1 0 1 0-2 0v6a1 1 0 0 0 .5.9l4 2.3a1 1 0 0 0 1-1.7l-3.5-2z" />
+                  </svg>
+                  3 Days
+                </span>
+              </div>
+
+              <div class="package-footer">
+                <div class="price-block">
+                  
+                  <span class="price-main">$255</span>
+                  <span class="price-sub">/Person</span>
+                </div>
+                <div class="rating">
+                  <svg class="icon icon-star" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" />
+                  </svg>
+                  <span>4 Reviews</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<section class="how-it-works" id="how-it-works">
+  <div class="container">
+    <h2 class="section-title">How It Works</h2>
+    <p class="how-subtitle">
+      Plan your next adventure in three simple steps.
+    </p>
+
+    <div class="how-grid">
+      <div class="how-card">
+        <div class="how-icon-circle">1</div>
+        <h3>Choose Your Destination</h3>
+        <p>
+          Browse our curated list of destinations and pick the place that
+          inspires you the most.
+        </p>
+      </div>
+
+      <div class="how-card">
+        <div class="how-icon-circle">2</div>
+        <h3>Select Your Package</h3>
+        <p>
+          Compare packages, durations, and prices to find the perfect tour
+          for your budget.
+        </p>
+      </div>
+
+      <div class="how-card">
+        <div class="how-icon-circle">3</div>
+        <h3>Book & Enjoy</h3>
+        <p>
+          Secure your booking in minutes and get ready for a seamless
+          travel experience.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <p class="testi-kicker">Clients Feedback About Us</p>
+    <h2 class="testi-title">See Those Lovely Words From Clients</h2>
+    <p class="testi-subtitle">
+      Are you tired of the typical tourist destinations and looking
+      to step out of your comfort zone?
+    </p>
+
+    <div class="testi-grid">
+      
+      <article class="testi-card">
+        <div class="testi-header">
+          <div class="testi-user">
+            <img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg" alt="Jacob Jones" />
+            <div>
+              <h3>Jacob Jones</h3>
+              <span>CEO, Traveller</span>
+            </div>
+          </div>
+          <span class="testi-quote">
+            <svg viewBox="0 0 24 24" class="icon-quote" aria-hidden="true">
+              <path d="M9 5H5a2 2 0 0 0-2 2v4.5A3.5 3.5 0 0 0 6.5 15H7a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1zm12 0h-4a2 2 0 0 0-2 2v4.5A3.5 3.5 0 0 0 17.5 15H18a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1z" />
+            </svg>
+          </span>
+        </div>
+
+        <p class="testi-text">
+          Morem ipsum dolor siterey amet mean earty areaeeey consec taetur
+          adipisvirce ollwing ipsum dolor consectetur.
+        </p>
+
+        <div class="testi-stars">
+          <svg class="icon-star" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" />
+          </svg>
+          <svg class="icon-star" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" />
+          </svg>
+          <svg class="icon-star" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" />
+          </svg>
+          <svg class="icon-star" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" />
+          </svg>
+          <svg class="icon-star icon-star-empty" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" />
+          </svg>
+        </div>
+      </article>
+
+      <article class="testi-card">
+        <div class="testi-header">
+          <div class="testi-user">
+            <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg" alt="Floyd Miles" />
+            <div>
+              <h3>Floyd Miles</h3>
+              <span>CEO, Traveller</span>
+            </div>
+          </div>
+          <span class="testi-quote">
+            <svg viewBox="0 0 24 24" class="icon-quote" aria-hidden="true">
+              <path d="M9 5H5a2 2 0 0 0-2 2v4.5A3.5 3.5 0 0 0 6.5 15H7a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1zm12 0h-4a2 2 0 0 0-2 2v4.5A3.5 3.5 0 0 0 17.5 15H18a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1z" />
+            </svg>
+          </span>
+        </div>
+
+        <p class="testi-text">
+          Morem ipsum dolor siterey amet mean earty areaeeey consec taetur
+          adipisvirce ollwing ipsum dolor consectetur.
+        </p>
+
+        <div class="testi-stars">
+          <svg class="icon-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" /></svg>
+          <svg class="icon-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" /></svg>
+          <svg class="icon-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" /></svg>
+          <svg class="icon-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" /></svg>
+          <svg class="icon-star icon-star-empty" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" /></svg>
+        </div>
+      </article>
+
+      <article class="testi-card">
+        <div class="testi-header">
+          <div class="testi-user">
+            <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" alt="Esther Howard" />
+            <div>
+              <h3>Esther Howard</h3>
+              <span>CEO, Traveller</span>
+            </div>
+          </div>
+          <span class="testi-quote">
+            <svg viewBox="0 0 24 24" class="icon-quote" aria-hidden="true">
+              <path d="M9 5H5a2 2 0 0 0-2 2v4.5A3.5 3.5 0 0 0 6.5 15H7a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1zm12 0h-4a2 2 0 0 0-2 2v4.5A3.5 3.5 0 0 0 17.5 15H18a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1z" />
+            </svg>
+          </span>
+        </div>
+
+        <p class="testi-text">
+          Morem ipsum dolor siterey amet mean earty areaeeey consec taetur
+          adipisvirce ollwing ipsum dolor consectetur.
+        </p>
+
+        <div class="testi-stars">
+          <svg class="icon-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" /></svg>
+          <svg class="icon-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" /></svg>
+          <svg class="icon-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" /></svg>
+          <svg class="icon-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" /></svg>
+          <svg class="icon-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.3 9.6 8l-5 .7a1 1 0 0 0-.6 1.7l3.6 3.5-.9 4.9a1 1 0 0 0 1.4 1.1L12 17.8l4.5 2.4a1 1 0 0 0 1.4-1.1l-.9-4.9 3.6-3.5a1 1 0 0 0-.6-1.7l-5-.7L12 3.3z" /></svg>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="blog" id="blog">
+  <div class="container">
+    <p class="blog-kicker">Blog And Article</p>
+    <h2 class="blog-title">Latest News &amp; Articles</h2>
+    <p class="blog-subtitle">
+      Are you tired of the typical tourist destinations and looking
+      to step out of your comfort zonetravel?
+    </p>
+
+    <div class="blog-grid">
+      
+      <article class="blog-card blog-card-large">
+        <div class="blog-image">
+          <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg" alt="Spiritual tour" />
+          <span class="blog-tag blog-tag-blue">Travel River</span>
+        </div>
+
+        <div class="blog-body">
+          <h3>Spiritual Sojourn: Pilgrimagee Tours For Soul Seekers</h3>
+          <div class="blog-meta">
+            <span class="meta-item">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 3a2 2 0 0 0-2 2v1H4a1 1 0 0 0-1 1v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7a1 1 0 0 0-1-1h-1V5a2 2 0 0 0-2-2h-1v2h-2V3H9v2H7V3zM5 9h14v10H5V9z" />
+              </svg>
+              26th Sep, 2024
+            </span>
+            <span class="meta-item">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm1 10.3V7a1 1 0 1 0-2 0v6a1 1 0 0 0 .5.9l4 2.3a1 1 0 0 0 1-1.7l-3.5-2z" />
+              </svg>
+              5 Mins Read
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <div class="blog-right">
+
+        <article class="blog-card">
+          <div class="blog-image small">
+            <img src="https://images.pexels.com/photos/1964647/pexels-photo-1964647.jpeg" alt="Wine country" />
+            <span class="blog-tag blog-tag-purple">Hiking</span>
+          </div>
+          <div class="blog-body">
+            <h3>Wine Country Escapes: Vineyard Tours For Connoisseurs</h3>
+            <div class="blog-meta">
+              <span class="meta-item">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 3a2 2 0 0 0-2 2v1H4a1 1 0 0 0-1 1v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7a1 1 0 0 0-1-1h-1V5a2 2 0 0 0-2-2h-1v2h-2V3H9v2H7V3zM5 9h14v10H5V9z" />
+                </svg>
+                26th Sep, 2024
+              </span>
+              <span class="meta-item">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm1 10.3V7a1 1 0 1 0-2 0v6a1 1 0 0 0 .5.9l4 2.3a1 1 0 0 0 1-1.7l-3.5-2z" />
+                </svg>
+                5 Mins Read
+              </span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-image small">
+            <img src="https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg" alt="Extreme sports" />
+            <span class="blog-tag blog-tag-pink">Adventure</span>
+          </div>
+          <div class="blog-body">
+            <h3>Thrills &amp; Chills: Extreme Sports Tours For Adrenaline</h3>
+            <div class="blog-meta">
+              <span class="meta-item">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 3a2 2 0 0 0-2 2v1H4a1 1 0 0 0-1 1v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7a1 1 0 0 0-1-1h-1V5a2 2 0 0 0-2-2h-1v2h-2V3H9v2H7V3zM5 9h14v10H5V9z" />
+                </svg>
+                26th Sep, 2024
+              </span>
+              <span class="meta-item">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm1 10.3V7a1 1 0 1 0-2 0v6a1 1 0 0 0 .5.9l4 2.3a1 1 0 0 0 1-1.7l-3.5-2z" />
+                </svg>
+                5 Mins Read
+              </span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer" id="footer">
+  <div class="container footer-inner">
+    <div class="footer-col">
+      <div class="logo footer-logo">Wanderlust</div>
+      <p class="footer-text">
+        Discover unforgettable destinations, curated tours, and seamless travel
+        experiences all in one place.
+      </p>
+      <div class="footer-social">
+
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" class="icon-social">
+            <path d="M13 3h3a1 1 0 0 1 0 2h-2v3h2.5a1 1 0 0 1 .98 1.2l-.4 2a1 1 0 0 1-.98.8H14v8a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-8H8a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h2V5a2 2 0 0 1 2-2z"/>
+          </svg>
+        </a>
+
+        <a href="#" aria-label="Twitter">
+          <svg viewBox="0 0 24 24" class="icon-social">
+            <path d="M4 5a1 1 0 0 1 1.5-.86l5.1 3.06L13.7 4A1 1 0 0 1 15.2 5.4L12.6 9l3.7 2.2A1 1 0 0 1 15.9 12l-5.1-3.06L8.3 13A1 1 0 0 1 6.8 11.6L9.4 8.1 5.7 5.9A1 1 0 0 1 4 5z"/>
+          </svg>
+        </a>
+
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" class="icon-social">
+            <path d="M8 3h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8zm4 2.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5zm5.25-3.25a1.25 1.25 0 1 1-1.25 1.25 1.25 1.25 0 0 1 1.25-1.25z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p class="footer-text">
+        123 Wanderlust Street,<br/>
+        Travel City, World 45678
+      </p>
+      <p class="footer-text">Email: hello@wanderlust.com</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© 2025 Wanderlust. All rights reserved.</p>
+      <p>Designed for your next adventure.</p>
+    </div>
+  </div>
+</footer>
+
+  </main>
+</body>
+</html>
